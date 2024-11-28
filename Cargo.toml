@@ -1,10 +1,10 @@
 [package]
-name = "my_app_ui"
+name = "game_floem"
 version = "0.1.0"
 edition = "2021"
 
 [lib]
-name = "my_app_ui"
+name = "game_floem"
 crate-type = ["cdylib"]
 
 [dependencies]
