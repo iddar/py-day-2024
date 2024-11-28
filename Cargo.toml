@@ -1,0 +1,12 @@
+[package]
+name = "my_app_ui"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "my_app_ui"
+crate-type = ["cdylib"]
+
+[dependencies]
+floem = { version = "0.2", default-features = false, features = ["vello"] }
+pyo3 = { version = "0.23.2", features = ["extension-module"] }
