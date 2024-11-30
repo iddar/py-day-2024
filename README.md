@@ -1,3 +1,15 @@
+# Invocando la Interfaz Lorem (Rust) desde Python
+
+Título: Integración Dinámica con Signals
+	•	Control Total desde Python:
+Con Floem, es posible invocar la interfaz gráfica directamente desde un script de Python, aprovechando PyO3 para establecer una comunicación fluida entre ambos lenguajes.
+	•	Uso de Signals:
+Floem ofrece un sistema de reactividad basado en signals que permite actualizar dinámicamente los valores de la UI en tiempo real desde Python.
+Ejemplo:
+Cambiar un valor numérico o texto mostrado en la interfaz es tan simple como modificar la señal asociada desde Python.
+	•	Versatilidad en la Interacción:
+Esto habilita la creación de interfaces altamente personalizables, donde los datos pueden ser manipulados directamente por la lógica del programa escrito en Python.
+
 Esta estructura modular ofrece varias ventajas:
 
 1. **Mejor organización**: Cada módulo tiene una responsabilidad específica.
